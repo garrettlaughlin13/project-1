@@ -1,0 +1,68 @@
+Add the sample web log data to Kibana.
+On the homepage click on Load a data set and a Kibana dashboard under Add sample data 
+Click Add data under the Sample web logs data pane
+Click View Data to pull up the dashboard
+Answer the following questions:
+In the last 7 days, how many unique visitors were located in India?
+A.) 226
+
+In the last 24 hours, of the visitors from China, how many were using Mac OSX?
+A.) 9
+
+In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?
+A.) 404 errors= 3%    503 errors= 5% 
+     
+In the last 7 days, what country produced the majority of the traffic on the website?
+A.) China
+
+Of the traffic that's coming from that country, what time of day had the highest amount of activity? A.) 9am=32 12pm=32 1pm=34
+
+List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type). A.) .jpg, CSS, deb, gz, rpm, zip
+
+Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
+Locate the time frame in the last 7 days with the most amount of bytes (activity).
+A.) 2021-01-13 16:00 7,412.571 but only had 7 unique visitors
+
+
+
+Filter the data by this event.
+What is the timestamp for this event?
+A.) 2021-01-13
+
+What kind of file was downloaded?
+A.) .jpg, deb, css
+
+From what country did this activity originate?
+A.) Afghanistan
+
+What HTTP response codes were encountered by this visitor?
+A.) 200 the standard a.ok
+
+Switch to the Kibana Discover page to see more details about this activity.
+What is the source IP address of this activity?
+A.) 37.68.247.33
+
+What are the geo coordinates of this activity?
+A.) The coordinates are 29.89361111, -97.86469444 
+
+What OS was the source machine running?
+A.) Windows 8
+
+What is the full URL that was accessed?
+A.) https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.4.2-i686.rpm
+
+From what website did the visitor's traffic originate?
+artifacts.elastic.co
+
+Finish your investigation with a short overview of your insights.
+What do you think the user was doing?
+A.) The user was trying to gather data at random.
+
+Was the file they downloaded malicious? If not, what is the file used for?
+A.) Yes, it seems like a phishing attack.
+
+Is there anything that seems suspicious about this activity?
+A.) Yes, how the data is in one spot.
+
+Is any of the traffic you inspected potentially outside of compliance guidlines?
+A.) Yes
